@@ -25,6 +25,7 @@ module "priv-nw" {
   source = "./priv-nw"
   eip-name = ["eip1","eip2"]
   private-subnets = [module.vpc.subnet-2,module.vpc.subnet-4]
+  public-subnets = [module.vpc.subnet-1,module.vpc.subnet-3]
   vpc-id = module.vpc.vpc-id
 }
 

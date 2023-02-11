@@ -1,8 +1,4 @@
-Private_IP: 10.0.3.25
-Private_IP: 10.0.1.171
-Public-IP: 3.87.185.145
-Public-IP: 3.238.66.246
-Private_IP: 10.0.1.158
-Private_IP: 10.0.3.192
-Public-IP: 44.201.152.11
-Public-IP: 44.195.128.122
+Private_IP: 10.0.3.33
+Private_IP: 10.0.1.253
+Public-IP: 44.200.154.211
+Public-IP: 174.129.165.43

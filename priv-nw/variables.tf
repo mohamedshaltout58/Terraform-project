@@ -9,3 +9,7 @@ variable "private-subnets" {
 variable "vpc-id" {
   
 }
+
+variable "public-subnets" {
+  type = list
+}

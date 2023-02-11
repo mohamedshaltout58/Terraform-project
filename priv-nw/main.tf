@@ -6,9 +6,9 @@ resource "aws_eip" "lab3-eip" {
 }
 
 resource "aws_nat_gateway" "NAT" {
-  count = length(var.private-subnets)
+  count = length(var.public-subnets)
   allocation_id = aws_eip.lab3-eip[count.index].id
-  subnet_id     = var.private-subnets[count.index]
+  subnet_id     = var.public-subnets[count.index]
 }
 
 resource "aws_route_table" "private" {
